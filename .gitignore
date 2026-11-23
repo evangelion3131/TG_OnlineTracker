@@ -1,0 +1,21 @@
+# Secrets and credentials
+local.env
+.env
+
+# Telegram session files (full access to the account!)
+*.session
+*.session-journal
+
+# Runtime output
+log.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
